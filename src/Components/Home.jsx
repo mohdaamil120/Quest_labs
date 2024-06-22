@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
-import Pic from "../image/Screenshot 2024-06-22 132318.png"
+import Pic from "../image/hp-player-crop.webp"
 import Elf from "../image/2222.png"
 import Int from "../image/3.png"
 import Go from "../image/4.png"
@@ -10,8 +10,19 @@ import Bl from "../image/7.png"
 import St from "../image/8.png"
 import Gy from "../image/9.png"
 import Ch from "../image/10.png"
+import PopupForm from './PopupForm'
 
 function Home() {
+    const [isFormVisible, setFormVisible] = useState(false);
+
+    const handleConnectWithSalesClick = () => {
+        setFormVisible(true);
+      };
+    
+      const closeForm = () => {
+        setFormVisible(false);
+      };
+
   return (
     <DIV>
       <header>
@@ -83,8 +94,13 @@ function Home() {
             </div>
             
         </div>
-        <button className='connect'>Connect With Sales</button>
+        <button className='connect' onClick={handleConnectWithSalesClick}>
+            Connect With Sales
+        </button>
       </div>
+      
+
+      {isFormVisible && <PopupForm closeForm={closeForm} />}
 
     </DIV>
   )
