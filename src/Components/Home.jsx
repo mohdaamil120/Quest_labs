@@ -108,167 +108,182 @@ function Home() {
 
 export default Home
 
+
 const DIV = styled.div`
-    header{
-        
-        width: 80%;
-        background-color: white;
-        border-radius: 50px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        margin-top: 30px;
-    }
+  header {
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+    margin: 2rem auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; 
+  }
 
-    nav{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 15px;
-        font-weight: bolder;
-    }
-    p{
-        font-size: 12px;
-    }
-    nav>span{
-        font-family:Cedarville Cursive;
-        font-size: 25px;
-    }
-    select{
-        margin-right: 5px;
-        background-color: whitesmoke;
-    }
-    #login{
-        margin-right: 5px;
-        background: none;
-        border: none;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    #get_start{
-        margin-right: 5px;
-        border-radius: 50px;
-        border: none;
-        padding: 13px 20px 13px 20px;
-        background-color: #4E0BE0;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-    }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem; 
+    font-weight: bolder;
+  }
 
-    .main{
-        display: flex;
-        width: 80%;
-        margin: auto;
-        color: white;
-        height: 55vh;
-    }
-    .text_con{
-        width: 50%;
-        padding: 0;
-        margin: 0;
-        display:flex ;
-        gap: 20px;
-        flex-direction: column;
-        padding-top: 30px;
-    }
-    .text_con>h1{
-        font-size: 54px;
-    }
-    .text_con>h1>span{
-        font-size: 10px;
-        position: relative;
-        top: -20px;
-    }
+  p {
+    font-size: 0.75rem; 
+  }
 
-    .text_con>p{
-        font-size: 16px;
-        color: #e7dede;
-        margin-top: -20px;
-    }
-    .text_con>p>span{
-        color: white;
-        font-weight: bold;
-    }
+  nav > span {
+    font-family: Cedarville Cursive;
+    font-size: 1.5rem; 
+  }
 
-    .image_con{
-        
-        width: 50%;
-    }
-    .image_con >img{
-        width: 550px;
-        border-radius: 5px;
-        height: 560px;
-    }
-    .btns>button:nth-child(1){
-        border-radius:50px;
-        border:none;
-        padding: 15px;
-        background-color: white;
-        color: #8136CF;
-        font-weight:bold;
-        cursor: pointer;
-    }
-    .btns>button:nth-child(2){
-        border:none;
-        background: transparent;
-        padding: 15px;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-    }
+  select {
+    margin-right: 0.5rem; 
+    background-color: whitesmoke;
+  }
 
-    .banner{
-        background-color: white;
-        border-radius: 70px 70px 0 0;
-        text-align: center;
-        margin: auto;
-        padding-top: 10px;
-        height: 223px;
-        margin-top: 70px;
-    }
-    .banner>h3{
-        color: gray;
-        margin-bottom: 50px;
-    }
+  #login {
+    margin-right: 0.5rem; 
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
-    .icon_con{
-        width: 80%;
-        margin: auto;
-        display: flex;
-        overflow: hidden;
-    }
-    .icons{
-        width: 100%;
-        display:flex ;
-        gap: 0px 50px;
-        animation: slide 18s linear infinite;
-    }
+  #get_start {
+    margin-right: 0.5rem; 
+    border-radius: 50px;
+    border: none;
+    padding: 0.75rem 1rem; 
+    background-color: #4E0BE0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
-    @keyframes slide {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-50%);
-        }
-    }
+  .main {
+    display: flex;
+    width: 80%;
+    margin: 2rem auto; 
+    color: white;
+    min-height: 55vh;
+  }
 
-    .connect{
-        position: relative;
-        top:-45px;
-        left: 500px;
-        width: 250px;
-        margin-right: 5px;
-        border-radius: 50px;
-        border: none;
-        padding: 15px 20px 15px 20px;
-        background-color: #4E0BE0;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-    }
-`
+  .text_con {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    padding-top: 2rem; 
+  }
 
+  .text_con > h1 {
+    font-size: 3rem;
+  }
+
+  .text_con > h1 > span {
+    font-size: 0.5rem; 
+    position: relative;
+    top: -0.5rem; 
+  }
+
+  .text_con > p {
+    font-size: 1rem; 
+    color: #e7dede;
+    margin-top: -1rem; 
+  }
+
+  .text_con > p > span {
+    color: white;
+    font-weight: bold;
+  }
+
+  .image_con {
+    width: 50%;
+  }
+
+  .image_con > img {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 5px;
+    height: auto; 
+  }
+
+  .btns {
+    display: flex;
+    gap: 1rem; 
+  }
+
+  .btns > button:nth-child(1) {
+    border-radius: 50px;
+    border: none;
+    padding: 0.75rem 1rem; 
+    background-color: white;
+    color: #8136CF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btns > button:nth-child(2) {
+    border: none;
+    background: transparent;
+    padding: 0.75rem 1rem; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .banner {
+    background-color: white;
+    border-radius: 70px 70px 0 0;
+    text-align: center;
+    margin: 2rem auto; 
+    padding-top: 1rem; 
+    height: auto;
+    min-height: 223px;
+  }
+
+  .banner > h3 {
+    color: gray;
+    margin-bottom: 2rem; 
+  }
+
+  .icon_con {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .icons {
+    display: flex;
+    gap: 0 2rem; 
+    animation: slide 18s linear infinite;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .connect {
+    position: relative;
+    top: -2rem; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: auto;
+    max-width: 250px;
+    border-radius: 50px;
+    border: none;
+    padding: 0.75rem 1rem; 
+    background-color: #4E0BE0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+`;
