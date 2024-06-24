@@ -55,20 +55,13 @@ npm start
 # Screenstots
 
 ###  ( Hero )
-
-![Alt Text](https://github.com/mohdaamil120/mohd_aamil_frontend_developer/assets/123925807/56f998f6-81ed-4c64-bc50-08df78622f80)
-
-###  ( Features )
-
-![Alt Text](https://github.com/mohdaamil120/mohd_aamil_frontend_developer/assets/123925807/3431cd71-72cb-4f8e-9d63-31a5a8f1ee62)
-
-###  ( Tokenomics )
+<img src="screenshots\home.png"/>
 
 
-![Alt Text](https://github.com/mohdaamil120/mohd_aamil_frontend_developer/assets/123925807/5aebedc6-cc6f-4fff-a49f-b598b92d9454)
+###  ( Stage 1 )
+<img src="screenshots\stage1.png"/>
+
+###  ( Stage 2 )
+<img src="screenshots\stage2.png"/>
 
 
-
-### ( Roadmap ) 
-
-![Alt Text](https://github.com/mohdaamil120/mohd_aamil_frontend_developer/assets/123925807/b1207b17-f2e2-4160-b0da-04177ca5427d)
