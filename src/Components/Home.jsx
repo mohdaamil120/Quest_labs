@@ -25,6 +25,7 @@ function Home() {
 
   return (
     <DIV>
+    
       <header>
         <div className='left'>
             <nav>
@@ -47,7 +48,7 @@ function Home() {
             <button id='get_start'>Get Started</button>
         </div>
       </header>
-    
+
     {/* header end */}
     
       <div className='main'>
@@ -114,11 +115,13 @@ const DIV = styled.div`
     width: 80%;
     background-color: white;
     border-radius: 50px;
-    margin: 2rem auto; 
+    margin: auto; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem; 
+    position: relative;
+    top: 32px;
   }
 
   nav {
@@ -205,8 +208,8 @@ const DIV = styled.div`
 
   .image_con > img {
     width: 100%;
-    max-width: 550px;
-    border-radius: 5px;
+    /* max-width: 550px; */
+    /* border-radius: 5px; */
     height: auto; 
   }
 
@@ -238,10 +241,9 @@ const DIV = styled.div`
     background-color: white;
     border-radius: 70px 70px 0 0;
     text-align: center;
-    margin: 2rem auto; 
     padding-top: 1rem; 
-    height: auto;
-    min-height: 223px;
+    min-height: 220px;
+    margin-top: -35px;
   }
 
   .banner > h3 {
@@ -273,7 +275,7 @@ const DIV = styled.div`
 
   .connect {
     position: relative;
-    top: -2rem; 
+    top: -2.5rem; 
     left: 50%; 
     transform: translateX(-50%); 
     width: auto;
@@ -287,3 +289,6 @@ const DIV = styled.div`
     cursor: pointer;
   }
 `;
+
+
+
