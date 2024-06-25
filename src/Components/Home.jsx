@@ -208,8 +208,8 @@ const DIV = styled.div`
 
   .image_con > img {
     width: 100%;
-    /* max-width: 550px; */
-    /* border-radius: 5px; */
+    max-width: 550px;
+  
     height: auto; 
   }
 
@@ -244,6 +244,8 @@ const DIV = styled.div`
     padding-top: 1rem; 
     min-height: 220px;
     margin-top: -35px;
+   
+
   }
 
   .banner > h3 {
@@ -289,6 +291,26 @@ const DIV = styled.div`
     cursor: pointer;
   }
 `;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
