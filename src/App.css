@@ -1,4 +1,4 @@
-
+/* 
 
 body{
 
@@ -12,7 +12,39 @@ body{
   width: 100vw;
   margin: auto;
   height: 100vh;
-  /* height: auto; */
-  /* background: linear-gradient(45deg, #A888E7 10%, #8136CF 50%, #DC7A2E 100%); */
+  height: auto;
+  background: linear-gradient(45deg, #A888E7 10%, #8136CF 50%, #DC7A2E 100%);
 }
+ */
+
+
+
+
+
+
+
+
+
+ body {
+  background: linear-gradient(135deg, #A888E7 10%, #8136CF 50%, #DC7A2E 100%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
 
